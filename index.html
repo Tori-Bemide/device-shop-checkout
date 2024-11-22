@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="./images/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Device Shop Checkout | devChallenges.io</title>
+
+    <style>
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <article class="header-text">
+          <h3>checkout</h3>
+          <span>3 items</span>
+        </article>
+      </header>
+      <section class="content">
+        <section class="products">
+          <!-- single product -->
+          <article class="product">
+            <div class="img-container">
+              <img
+                src="./images/Gold.png"
+                alt="iphone image"
+                class="product-img"
+              />
+            </div>
+            <div class="product-info">
+              <div class="product-price">
+                <p>iPhone 12 Pro</p>
+                <p>$999.00</p>
+              </div>
+              <p class="color">golden</p>
+              <div class="product-footer">
+                <span>x 1</span>
+                <span class="times-icon">x</span>
+              </div>
+            </div>
+          </article>
+          <!-- end of single product -->
+          <!-- single product -->
+          <article class="product">
+            <div class="img-container">
+              <img
+                src="./images/Apple-watch.png"
+                alt="apple watch"
+                class="product-img"
+              />
+            </div>
+            <div class="product-info">
+              <div class="product-price">
+                <p>Apple Watch</p>
+                <p>$399.00</p>
+              </div>
+              <p class="color">blue</p>
+              <div class="product-footer">
+                <span>x 1</span>
+                <span class="times-icon">x</span>
+              </div>
+            </div>
+          </article>
+          <!-- end of single product -->
+          <!-- single product -->
+          <article class="product">
+            <div class="img-container">
+              <img src="./images/iMac.png" alt="iMac" class="product-img" />
+            </div>
+            <div class="product-info">
+              <div class="product-price">
+                <p>Apple Watch</p>
+                <p>$399.00</p>
+              </div>
+              <p class="color">blue</p>
+              <div class="product-footer">
+                <span>x 1</span>
+                <span class="times-icon">x</span>
+              </div>
+            </div>
+          </article>
+          <!-- end of single product -->
+          <hr />
+          <section class="coupon-section">
+            <input
+              type="text"
+              class="input coupon-input"
+              placeholder="Enter coupon code"
+            />
+            <button class="btn coupon-btn">apply coupon</button>
+          </section>
+          <section class="price-summary">
+            <div class="summary">
+              <p>Sub total</p>
+              <p>$2597.00</p>
+            </div>
+            <div class="summary">
+              <p>Tax</p>
+              <p>$623.28</p>
+            </div>
+            <div class="summary total">
+              <p>Total</p>
+              <p>$3220.28</p>
+            </div>
+          </section>
+        </section>
+        <form class="contact-form">
+          <h4>contact information</h4>
+          <!-- single-input -->
+          <label for="name">first & last name</label>
+          <input
+            type="text"
+            class="input form-input"
+            placeholder="Enter first & last name"
+            id="name"
+          />
+          <!-- end of simple input -->
+          <!-- single-input -->
+          <label for="email">email address</label>
+          <input
+            type="text"
+            class="input form-input"
+            placeholder="Enter email address"
+            id="email"
+          />
+          <!-- end of simple input -->
+          <div class="country-postal">
+            <!-- single-input -->
+            <div class="country">
+              <label for="country">country</label>
+              <select id="country">
+                <option value="finland">finland</option>
+                <option value="nigeria">nigeria</option>
+              </select>
+            </div>
+            <!-- end of simple input -->
+            <!-- single input -->
+            <div class="postal">
+              <label for="postal">postal code</label>
+              <input
+                type="number"
+                class="input form-input"
+                placeholder="00270"
+                id="postal"
+              />
+            </div>
+            <!-- end of simple input -->
+          </div>
+          <button class="btn submit-btn">continue</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- <div class="author-info">
+      Coded by <a href="#">Your Name Here</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div> -->
+  </body>
+</html>
